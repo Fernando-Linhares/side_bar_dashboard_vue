@@ -28,13 +28,19 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
+  <SideBarComponent />
 </template>
 
 <script>
+import SideBarComponent from './SideBarComponent.vue';
+
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  components:{
+    SideBarComponent
   }
 }
 </script>

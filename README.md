@@ -1,5 +1,11 @@
 # sidebar-vue
 
+
+![image info](./src/assets/sidebar_closed.png)
+
+![image info](./src/assets/sidebar_opened.png)
+
+
 ## Project setup
 ```
 npm install
